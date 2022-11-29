@@ -7,6 +7,7 @@
 
 Create the following diagram using for loops.
 
+'
 *    *    *
  *   *   *
   *  *  *
@@ -16,3 +17,4 @@ Create the following diagram using for loops.
   *  *  *
  *   *   *
 *    *    *
+'
