@@ -6,39 +6,32 @@
 is assigned a specific point value, based upon the amount of work required. If you complete more than one project, you will receive
 the total amount of points that are indicated for those problems (for instance, if you complete the first and second problems below, you
 would be graded out of 52 points).
-Requirements:
-1) Pseudocode: You must produce the pseudocode for your program BEFORE actually writing the code. This pseudocode is due
-IN CLASS on Monday, November 28, and a typed (or scanned) version must be uploaded to your Project List #1
-assignment on Classroom.
-2) User Input: All user input must be taken through input boxes and, unless otherwise specified, all output must be displayed via
-a message box. All input and output MUST occur in your main method, not in any of the other required methods.
-3) Documentation: All programs must have the following:
-a. Class header comments
-b. Block commenting (comments explaining the function of major portions of your code)
-4) Readability: All programs must exhibit a high level of readability.
-5) User friendliness: Programs must have descriptive input prompts and output statements. For example: “Enter the string to be
-processed:”
-6) User-controlled exit: User is asked if they want to continue or exit the program, using an appropriate dialog box.
-7) Program Requirements: All programs must meet the problem requirements, as stated in the problem descriptions below.
-8) Filenames: The required filename for each of the project options is listed in parentheses
-9) Permitted classes: You are NOT permitted to use the StringBuilder, StringBuffer or StringTokenizer
-classes.
+- Requirements:
+  - Pseudocode: You must produce the pseudocode for your program BEFORE actually writing the code. This pseudocode is due IN CLASS on Monday, November 28, and a typed (or scanned) version must be uploaded to your Project List #1 assignment on Classroom.
+  - User Input: All user input must be taken through input boxes and, unless otherwise specified, all output must be displayed via a message box. All input and output MUST occur in your main method, not in any of the other required methods.
+  - Documentation: All programs must have the following:
+    - Class header comments
+    - Block commenting (comments explaining the function of major portions of your code)
+  - Readability: All programs must exhibit a high level of readability.
+  - User friendliness: Programs must have descriptive input prompts and output statements. For example: “Enter the string to be processed:”
+  - User-controlled exit: User is asked if they want to continue or exit the program, using an appropriate dialog box.
+  - Program Requirements: All programs must meet the problem requirements, as stated in the problem descriptions below.
+  - Filenames: The required filename for each of the project options is listed in parentheses
+  - Permitted classes: You are NOT permitted to use the StringBuilder, StringBuffer or StringTokenizer classes.
+
 PROJECTS MUST BE UPLOADED TO CLASSROOM BY FRIDAY, DECEMBER 23 by 11:59PM.
+
 POINTS WILL BE DEDUCTED PER DAY FOR LATENESS!!!
-This project will be graded on:
-1. Pseudocode (4 points): Your pseudocode must accurately describe the steps of the program.
-2. Documentation (4 points): Your code must be fully commented and employ standard Java-style
-conventions.
-3. User-Friendliness / User-Input (8 points): GUI present and prompts are easy to understand.
-4. User-Controlled Exit (2 points): The user is asked if they want to continue or exit the program.
-5. Palindrome (8 points): User is asked for the string to be processed, the reverse is correctly
-determined, and the answer is correct as to palindrome or not.
-6. MailingLabel (8 points): User is asked for the delimiter and delimited string, and then the correctly
-formatted mailing label is displayed.
-7. Zinnformatics (10 points): User is asked for the company name and number of packages. The correct
-discount is determined. The correct final price is determined.
-8. CozaLozaWoza (8 points): User is asked to enter an integer and the output is correct for all integer
-values.
+
+- This project will be graded on:
+  - Pseudocode (4 points): Your pseudocode must accurately describe the steps of the program.
+  - Documentation (4 points): Your code must be fully commented and employ standard Java-style conventions.
+  - User-Friendliness / User-Input (8 points): GUI present and prompts are easy to understand.
+  - User-Controlled Exit (2 points): The user is asked if they want to continue or exit the program.
+  - Palindrome (8 points): User is asked for the string to be processed, the reverse is correctly determined, and the answer is correct as to palindrome or not.
+  - MailingLabel (8 points): User is asked for the delimiter and delimited string, and then the correctly formatted mailing label is displayed.
+  - Zinnformatics (10 points): User is asked for the company name and number of packages. The correct discount is determined. The correct final price is determined.
+  - CozaLozaWoza (8 points): User is asked to enter an integer and the output is correct for all integer values.
 TOTALS:
 Palindrome: 26 points
 MailingLabel: 26 points
