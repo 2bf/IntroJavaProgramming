@@ -1,3 +1,5 @@
+# Lesson 15B Classwork (Anatomy of a method)
+
 Complete the following methods:
 
 - public static int sumOfValues(int i, int j)
