@@ -1,4 +1,4 @@
-#Lesson 6 Classwork (Intro to Java)
+# Lesson 6 Classwork (Intro to Java)
 
 Write lines of code to perform the following functions:
 - Print “Java is fun!” to the screen
