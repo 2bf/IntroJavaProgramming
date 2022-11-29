@@ -1,3 +1,5 @@
+# Lesson 7 Classwork (Variables, Assignment, and Declarations)
+
 Write a program that does the following:
 1. Declares a variable of each primitive type (int, double, char, boolean)
 2. Prints each variable
