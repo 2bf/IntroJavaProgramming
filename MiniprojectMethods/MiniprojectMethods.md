@@ -1,4 +1,4 @@
-#Mini-Project: Methods
+# Mini-Project: Methods
 
 Complete the following methods with the given signatures. All user input and output must occur in your main
 method. You are permitted to create other methods if you feel they would help you complete the task. Call your
