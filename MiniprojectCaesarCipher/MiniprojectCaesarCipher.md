@@ -25,3 +25,8 @@ conventions.
   - User-Friendliness (4 points): All interactions with the user must be clear and unambiguous.
   - Methods (8 points): Each method has the proper signature and works as expected.
 TOTAL: 16 points
+
+Sample output:
+- The call ```System.out.println(encode(&quot;HELLO&quot;, 5));``` gives ```MJQQT```
+- The call ```System.out.println(decode(&quot;WORLD&quot;, 5));``` gives ```RJMGY```
+- The call ```System.out.println(encode(decode(&quot;HELLO&quot;, 5), 5));``` gives ```HELLO```
