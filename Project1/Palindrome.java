@@ -42,12 +42,8 @@ public class Palindrome{
    
 
    public static boolean isPalindrome(String str){
-      String reverse = "";
+      String reverse = reverseString(str);
       char scan;
-      for (int i=0; i<str.length(); i++){
-         scan = str.charAt(i);
-         reverse = scan + reverse;
-      } //for loop end
       return str.equals(reverse); //checks if the original string is equivalent to the reversed version
    } //public static boolean ispalindrime end
 } //public class end 
