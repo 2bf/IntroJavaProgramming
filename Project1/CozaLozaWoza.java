@@ -18,9 +18,9 @@ public class CozaLozaWoza {
       int again;
       do {
          numbers = JOptionPane.showInputDialog ("Enter a positive number.");
-         int quantity = Integer.parseInt(numbers);
-         String result = cozaLozaWoza(quantity);
-         JOptionPane.showMessageDialog (null, result);
+         int quantity = Integer.parseInt(numbers); //turns the user's input string into an integer (they are expected to type a number, only)
+         String result = cozaLozaWoza(quantity); //calls method and stores the output into a string
+         JOptionPane.showMessageDialog (null, result); //shows user a window with the output
          again = JOptionPane.showConfirmDialog (null, "Would you like to run this program again?");
       } // do end
       while (again == JOptionPane.YES_OPTION);
@@ -28,7 +28,7 @@ public class CozaLozaWoza {
     }
     
     public static String cozaLozaWoza (int n) {
-      String out = "";
+      String out = ""; //creates a string to which the output will be stored
       boolean divisible = false;
       for (int i = 1; i <= n; i++) { //checks if number is divisible and replaces it with coza/loza/woza in the string
          divisible = false;
