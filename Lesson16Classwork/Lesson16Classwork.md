@@ -1,3 +1,5 @@
+# Lesson 16 (The Anatomy of a Class)
+
 Ash Ketcham has decided that his Pokédex could totally be
 improved. He wants to store the following information for a
 given Pokémon:
