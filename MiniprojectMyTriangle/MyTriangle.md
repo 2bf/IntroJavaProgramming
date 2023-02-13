@@ -1,3 +1,5 @@
+# MyTriangle
+
 Design a class called MyTriangle, which models a triangle with 3 vertices, which are three instances of MyPoint (from miniproject mypoint). Also write a test class to test all the methods defined in the class and display all of the relevant values.
 The MyTriangle class contains:
 1. Three private instance variables v1, v2, v3 (instances of MyPoint) that represent three vertices, and a String private instance variable that represents the name of the triangle.
