@@ -9,9 +9,9 @@ The MyTriangle class contains:
 6. A findArea()method that returns the area of the triangle. You must use the findPerimeter method from above and the findDistance method from the MyPoint class to receive full credit. Use Heron’s Formula to calculate the area.
    - Heron’s formula states that the area of a triangle can be found using the semi-perimeter (half the perimeter) and the length of each side. The formula is A = √s(s − a)(s − b)(s − c), where s is the semi-perimeter and a, b, and c are the lengths of the 3 sides.
 7. A displayType()method that returns a string used to display the type of triangle
-  - (“Equilateral” if all sides are congruent, “Scalene” if none of the sides are congruent, or “Isosceles” if two sides are congruent.)
-  - BONUS: Also return “Right”, “Acute”, or “Obtuse”.
-  - Another BONUS: Randomly generate the coordinates (range of −10 to 10) of the three points (in the driver class), and determine if the three points form a triangle (in the constructor). If not, then display an appropriate message and end the program using System.exit(0);
+   - (“Equilateral” if all sides are congruent, “Scalene” if none of the sides are congruent, or “Isosceles” if two sides are congruent.)
+   - BONUS: Also return “Right”, “Acute”, or “Obtuse”.
+   - Another BONUS: Randomly generate the coordinates (range of −10 to 10) of the three points (in the driver class), and determine if the three points form a triangle (in the constructor). If not, then display an appropriate message and end the program using System.exit(0);
 Sample output (due to rounding errors, an answer for the area of 6 would be correct as well):
 ```
 Triangle ABC: (6, 4), (5, -2), (7, -2)
