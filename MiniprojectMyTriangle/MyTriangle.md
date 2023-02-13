@@ -4,10 +4,10 @@ The MyTriangle class contains:
 2. A constructor that creates a MyTriangle given three instances of MyPoint and the name.
 3. Three mutator methods to allow the user to change the coordinates of one of the vertices, and three accessor methods to allow the user to access the coordinates of each vertex.
 4. A toString()method that returns a string used to display the coordinates of the vertices of the triangle and the name.
-  - Example: Triangle ABC: (3, 4), (4, 7), (-1, 6)
+   - Example: Triangle ABC: (3, 4), (4, 7), (-1, 6)
 5. A findPerimeter()method that returns the perimeter of the triangle. You must use the findDistance method from the MyPoint class to receive full credit.
 6. A findArea()method that returns the area of the triangle. You must use the findPerimeter method from above and the findDistance method from the MyPoint class to receive full credit. Use Heron’s Formula to calculate the area.
-  - Heron’s formula states that the area of a triangle can be found using the semi-perimeter (half the perimeter) and the length of each side. The formula is A = √s(s − a)(s − b)(s − c), where s is the semi-perimeter and a, b, and c are the lengths of the 3 sides.
+   - Heron’s formula states that the area of a triangle can be found using the semi-perimeter (half the perimeter) and the length of each side. The formula is A = √s(s − a)(s − b)(s − c), where s is the semi-perimeter and a, b, and c are the lengths of the 3 sides.
 7. A displayType()method that returns a string used to display the type of triangle
   - (“Equilateral” if all sides are congruent, “Scalene” if none of the sides are congruent, or “Isosceles” if two sides are congruent.)
   - BONUS: Also return “Right”, “Acute”, or “Obtuse”.
