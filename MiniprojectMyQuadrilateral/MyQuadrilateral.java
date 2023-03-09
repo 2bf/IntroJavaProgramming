@@ -19,6 +19,8 @@ public class MyQuadrilateral {
    MyPoint v3 = new MyPoint(2,8);
    MyPoint v4 = new MyPoint(-1,5);
    String name = "";
+   MyTriangle tri1 = new MyTriangle(v1, v3, v2, "tri1");
+   MyTriangle tri2 = new MyTriangle(v3, v4, v1, "tri2");
    
    //(2) constructor
    public MyQuadrilateral(MyPoint a, MyPoint b, MyPoint c, MyPoint d, String n){
@@ -69,10 +71,13 @@ public class MyQuadrilateral {
    
    //(6) method that returns area of quadrilateral
    public double findArea() {
-      double base = v1.findDistance(v2);
-      double height = v2.findDistance(v3);
-      double area = base * height;
-      return area;
+      MyTriangle tri1 = new MyTriangle(v1, v3, v2, "tri1");
+      MyTriangle tri2 = new MyTriangle(v3, v4, v1, "tri2");
+      double tri1area = tri1.findArea();
+      double tri2area = tri2.findArea();
+      double sumarea = tri1area + tri2area;
+      return sumarea;
+      
    }
    
    //(7) method that returns absolute value of difference in lengths of 2 diagonals of quadrilateral
