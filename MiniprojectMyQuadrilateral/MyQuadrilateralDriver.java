@@ -25,15 +25,15 @@ public class MyQuadrilateralDriver {
       System.out.println(other);
       
       String result = "";
-      result += "Perimeter (" + quad.name + "): " + quad.findPerimeter() + "\n";
-      result += "Perimeter (" + other.name + "): " + other.findPerimeter() + "\n";
-      result += "Area (" + quad.name + "): " + quad.findArea() + "\n";      
-      result += "Area (" + other.name + "): " + other.findArea() + "\n";
-      result += "Diagonal difference (" + quad.name + "): " + quad.diagonalDifference() + "\n";
-      result += "Diagonal difference (" + other.name + "): " + other.diagonalDifference() + "\n";
-      result += "isIsoscelesTrapezoid (" + quad.name + "): " + quad.isIsoscelesTrapezoid() + "\n";
-      result += "isIsoscelesTrapezoid (" + other.name + "): " + other.isIsoscelesTrapezoid() + "\n";
-      result += "isBigger (" + quad.name + " is bigger than " + other.name + "): " + quad.isBigger(other) + "\n";
+      result += "Perimeter (" + quad.getName() + "): " + quad.findPerimeter() + "\n";
+      result += "Perimeter (" + other.getName() + "): " + other.findPerimeter() + "\n";
+      result += "Area (" + quad.getName() + "): " + quad.findArea() + "\n";      
+      result += "Area (" + other.getName() + "): " + other.findArea() + "\n";
+      result += "Diagonal difference (" + quad.getName() + "): " + quad.diagonalDifference() + "\n";
+      result += "Diagonal difference (" + other.getName() + "): " + other.diagonalDifference() + "\n";
+      result += "isIsoscelesTrapezoid (" + quad.getName() + "): " + quad.isIsoscelesTrapezoid() + "\n";
+      result += "isIsoscelesTrapezoid (" + other.getName() + "): " + other.isIsoscelesTrapezoid() + "\n";
+      result += "isBigger (" + quad.getName() + " is bigger than " + other.getName() + "): " + quad.isBigger(other) + "\n";
       System.out.println(result);
 
 
