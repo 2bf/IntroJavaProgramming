@@ -13,14 +13,14 @@ import java.lang.Math;
 public class MyQuadrilateral {
    
    //(1) declaring instance variables
-   private MyPoint mypoint;
-   MyPoint v1 = new MyPoint(3,4);
-   MyPoint v2 = new MyPoint(4,7);
-   MyPoint v3 = new MyPoint(2,8);
-   MyPoint v4 = new MyPoint(-1,5);
-   String name = "";
-   MyTriangle tri1 = new MyTriangle(v1, v3, v2, "tri1");
-   MyTriangle tri2 = new MyTriangle(v3, v4, v1, "tri2");
+   private MyPoint v1 = new MyPoint(3,4);
+   private MyPoint v2 = new MyPoint(4,7);
+   private MyPoint v3 = new MyPoint(2,8);
+   private MyPoint v4 = new MyPoint(-1,5);
+   private String name = "";
+   private MyTriangle tri1 = new MyTriangle(v1, v3, v2, "tri1");
+   private MyTriangle tri2 = new MyTriangle(v3, v4, v1, "tri2");
+
    
    //(2) constructor
    public MyQuadrilateral(MyPoint a, MyPoint b, MyPoint c, MyPoint d, String n){
@@ -57,6 +57,9 @@ public class MyQuadrilateral {
    }
    public MyPoint getV4(){
       return v4;
+   }
+   public String getName() {
+    return name;
    }
    
    //(5) method that returns perimeter of quadrilateral
