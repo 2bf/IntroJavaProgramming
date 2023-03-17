@@ -18,7 +18,9 @@ This project will be graded on:
 conventions.
 2. User-Friendliness (4 points): All interactions with the user must be clear and unambiguous.
 3. Methods (12 points): Each method has the proper signature and works as expected.
+
 TOTAL: 20 points
+
 Example runs of the program:
 
 ```
