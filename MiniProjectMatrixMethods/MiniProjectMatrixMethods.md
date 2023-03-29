@@ -1,3 +1,5 @@
+# MiniProject MatrixMethods
+
 Complete the following methods with the given signatures. All user input and output must occur in your main method. You are permitted to create other methods if you feel they would help you complete the task. Call your java file MatrixMethods. This is to be submitted to Classroom by the date posted on Classroom. You are only completing one java file for this mini-project. For this program, you may use Scanner or JOptionPane.
 
 In your main method, display a menu to ask the user for their desired task. The options are listed below. Once the user chooses a task, ask them for their desired number of rows and number of columns. Then, prompt them to fill the array with integer values. When displaying an array, all entries must be displayed row-by-row (see below for sample output). When the process is complete, ask the user if they want to do it again.
