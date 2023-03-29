@@ -5,10 +5,13 @@ In your main method, display a menu to ask the user for their desired task. The 
 ```public static int sumOfRow(int[][] arr, int row)```
 This method takes both an integer matrix and an integer as parameters and returns the sum of the
 elements in that row.
+
 ```public static double averageOfRows(int[][] arr)```
 This method takes an integer matrix as a parameter and returns the average of all rows in the matrix.
+
 ```public static int largestRow(int[][] arr)```
 This method takes an integer matrix as a parameter and returns the row index with the largest sum.
+
 
 This project will be graded on:
 1. Documentation (4 points): Your code must be fully commented and employ standard Java-style
