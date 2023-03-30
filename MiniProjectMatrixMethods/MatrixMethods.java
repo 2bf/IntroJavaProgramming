@@ -12,9 +12,14 @@ public class MatrixMethods {
    public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
       boolean repeat = true; //for while loop
+      
+      //if trueRowNum is true, then the first row is row 0
+      //if it is false then the first row is row 1 (when inputted by the user)
+      boolean trueRowNum = true;
+      int p = 0;
+      if (!trueRowNum) {p = 1;}
         
       //user i/o - uses while loop so the player can run program multiple times and quit when needed
-
       while (repeat) {
          //user inputs function choice
          System.out.println("Choice 1: Sum of row");
@@ -43,7 +48,7 @@ public class MatrixMethods {
          //output
          if (choice == 1) {
             System.out.print("Enter row: ");
-            int row = scanner.nextInt() - 1; //makes is so that the first row is row 1, not row 0
+            int row = scanner.nextInt() - p; //refer to line 16. makes it so that the first row is row 1, not row 0 
             int sum = sumOfRow(matrix, row);
             System.out.println("The sum of row " + row + " is " + sum + ".");
          } else if (choice == 2) {
