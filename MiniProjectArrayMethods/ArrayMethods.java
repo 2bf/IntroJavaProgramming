@@ -31,12 +31,13 @@ public class ArrayMethods {
             System.out.print("Enter array element " + i + ": ");
             arr[i] = scanner.nextInt();
          }
-
+         
+         System.out.print("\nThe array you entered is: ");
+            printArray(arr);
+         
          //output
          if (choice == 1) {
             int[] reversed = reverseArray(arr);
-            System.out.print("\nThe array you entered is: ");
-            printArray(arr);
             System.out.print("Your array in reverse is: ");
             printArray(reversed);
          } else if (choice == 2) {
