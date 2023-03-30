@@ -43,7 +43,7 @@ public class MatrixMethods {
          //output
          if (choice == 1) {
             System.out.print("Enter row: ");
-            int row = scanner.nextInt();
+            int row = scanner.nextInt() - 1; //makes is so that the first row is row 1, not row 0
             int sum = sumOfRow(matrix, row);
             System.out.println("The sum of row " + row + " is " + sum + ".");
          } else if (choice == 2) {
