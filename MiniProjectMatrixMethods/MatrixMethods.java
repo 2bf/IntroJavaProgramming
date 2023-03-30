@@ -85,16 +85,19 @@ public class MatrixMethods {
    
    //takes integer matrix as parameter, returns row index with largest sum
    public static int largestRow(int[][] arr) {
-      int largestSum = Integer.MIN_VALUE;
+      int largestSum = 0;
       int largestRow = 0;
       for (int i = 0; i < arr.length; i++) {
-         int sum = sumOfRow(arr, i);
-         if (sum > largestSum) {
-            largestSum = sum;
-            largestRow = i;
-         } //if loop end
-      } //for loop end
-      return largestRow;
+         int rowSum = 0;
+         for (int j = 0; j < arr[i].length; j++) {
+            rowSum += arr[i][j];
+         }
+      if (rowSum > largestSum) {
+         largestSum = rowSum;
+         largestRow = i;
+      }
+   }
+   return largestRow;
    } //public static int largestrow end
     
    //for printing matrix
