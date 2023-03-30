@@ -51,7 +51,7 @@ public class MatrixMethods {
             System.out.println("The average of all rows is " + avg + ".");
          } else if (choice == 3) {
             int largestRow = largestRow(matrix);
-            System.out.println("The row with the largest sum is " + largestRow + ".");
+            System.out.println("The row with the largest sum is: row " + largestRow + ".");
          } else {
             System.out.println("\nYou chose an invalid choice: Choice " + choice + " does not exist.");
          }
