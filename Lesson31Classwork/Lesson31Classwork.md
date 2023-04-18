@@ -1,4 +1,4 @@
-#Lesson 31 (Intro to GUIs)
+# Lesson 31 (Intro to GUIs)
 
 Compile and run NestedPanels.java
 1. What is different about this GUI on first glance?
