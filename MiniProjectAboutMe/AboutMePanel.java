@@ -74,7 +74,6 @@ public class AboutMePanel extends JPanel implements ActionListener {
       setPreferredSize (new Dimension(300, 400));
    }
 
-   @Override
    public void actionPerformed(ActionEvent e) {
       if (e.getSource() == nameButton) {
          infoLabel.setText("Chiming Wang");
